@@ -1,0 +1,90 @@
+/* --- LAFC Offical Brand Colors ---
+   Pitch Black: #000000
+   California Gold: #C39E6D
+   Asphalt Gray: #55565A
+   Pure White: #FFFFFF 
+---------------------------------- */
+
+/* Base Styles & Pitch Black Background */
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Impact', 'Arial Black', sans-serif; 
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+
+header, h1 {
+    color: #C39E6D; 
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #C39E6D; 
+    padding-bottom: 15px;
+}
+
+
+main, section {
+    background-color: #111111; 
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #55565A; 
+    box-shadow: 0 4px 20px rgba(195, 158, 109, 0.15); 
+}
+
+
+h2, h3 {
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    border-left: 5px solid #C39E6D; 
+    padding-left: 12px;
+    margin-top: 0;
+}
+
+p, li {
+    color: #E0E0E0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    font-size: 1.1rem;
+}
+
+
+a {
+    color: #C39E6D;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #FFFFFF;
+    background-color: #C39E6D;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+footer {
+    text-align: center;
+    color: #55565A; 
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
